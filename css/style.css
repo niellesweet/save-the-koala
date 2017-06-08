@@ -2,3 +2,31 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+/*DISEÑO NAVBAR*/
+.navbar-inverse{
+	background-color: transparent;
+	border: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+/*DISEÑO SECTION 1*/
+.first-section{
+	background-image: url(../img/portada.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.first-section h1{
+	padding-top: 3em;
+	color: #ABCB89;
+	font-weight: 700;
+	font-size: 60px;
+}
+.first-section p{
+	color: white;
+	text-align: justify;
+}
