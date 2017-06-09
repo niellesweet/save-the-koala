@@ -5,13 +5,31 @@ green: 55A44E;
 *{
 	font-family: 'Montserrat', sans-serif;
 }
+/*DISEÑO BOTONES*/
+button{
+	background-color: #41521F;
+	color: white;
+	padding: 10px 16px;
+	border-radius: 8px;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #E7F0D2;
+	color: #83B271;
+}
 /*DISEÑO NAVBAR*/
 .navbar-inverse{
 	background-color: transparent;
 	border: none;
 }
-.navbar-inverse .navbar-nav>li>a{
+.navbar-inverse .navbar-nav li a{
 	color: white;
+}
+.navbar-inverse .navbar-nav li a:hover{
+	color: #83B271;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
 }
 /*DISEÑO SECTION 1*/
 .first-section{
@@ -30,12 +48,6 @@ green: 55A44E;
 	color: white;
 	text-align: justify;
 }
-.first-section button{
-	background-color: #55A44E;
-	color: white;
-	padding: 10px 16px;
-	border-radius: 8px;
-}
 /*DISEÑO SECTION 2*/
 .second-section{
 	background-color: white;
@@ -50,23 +62,17 @@ green: 55A44E;
 }
 /*DISEÑO SECTION 3*/
 .third-section{
-	background-color: #D7C37A;
+	background-color: #A89F68;
 	padding: 70px 20px;
 	color: white;
 }
 .third-section .caja-texto h2{
-	color: #55A44E;
+	color: #41521F;
 	font-size: 1,5rem;
 	font-weight: 700;
 }
 .third-section .caja-texto h2 small{
 	color: white;
-}
-.third-section button{
-	background-color: #55A44E;
-	color: white;
-	padding: 10px 16px;
-	border-radius: 8px;
 }
 /*DISEÑO SECTION 4*/
 .fourth-section{
