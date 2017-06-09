@@ -36,3 +36,15 @@ army green: 41521F;
 	padding: 10px 16px;
 	border-radius: 8px;
 }
+/*DISEÑO SECTION 2*/
+.second-section{
+	background-color: white;
+	padding-top: 70px;
+	height: 100vh;
+}
+.second-section .caja-texto{
+	padding-top: 140px;
+}
+.second-section .caja-texto h2, h3, a{
+	color: #A89F68;
+}
