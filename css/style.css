@@ -42,6 +42,7 @@ button:hover{
 	min-height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 .first-section .caja-texto h1{
 	padding-top: 3em;
