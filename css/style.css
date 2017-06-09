@@ -22,11 +22,17 @@ army green: 41521F;
 }
 .first-section h1{
 	padding-top: 3em;
-	color: #ABCB89;
+	color: #A89F68;
 	font-weight: 700;
 	font-size: 60px;
 }
 .first-section p{
 	color: white;
 	text-align: justify;
+}
+.first-section button{
+	background-color: #428B46;
+	color: white;
+	padding: 10px 16px;
+	border-radius: 8px;
 }
