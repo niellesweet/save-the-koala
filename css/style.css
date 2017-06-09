@@ -11,11 +11,13 @@ button{
 	color: white;
 	padding: 10px 16px;
 	border-radius: 8px;
+	transition: .5s all ease;
 }
 button:hover{
 	cursor: pointer;
 	background-color: #E7F0D2;
 	color: #83B271;
+	transition: .5s all ease;
 }
 /*DISEÑO NAVBAR*/
 .navbar-inverse{
@@ -24,12 +26,15 @@ button:hover{
 }
 .navbar-inverse .navbar-nav li a{
 	color: white;
+	transition: .5s all ease;
 }
 .navbar-inverse .navbar-nav li a:hover{
 	color: #83B271;
 	font-style: italic;
 	font-weight: bold;
 	cursor: pointer;
+	transition: .5s all ease
+	text-shadow: 2px 2px #ff0000;
 }
 /*DISEÑO SECTION 1*/
 .first-section{
@@ -40,7 +45,7 @@ button:hover{
 }
 .first-section h1{
 	padding-top: 3em;
-	color: #D7C37A;
+	color: #A89F68;
 	font-weight: 700;
 	font-size: 60px;
 }
@@ -57,7 +62,9 @@ button:hover{
 .second-section .caja-texto{
 	padding-top: 140px;
 }
-.second-section .caja-texto h2, .second-section .caja-textoh3, .second-section .caja-texto a{
+.second-section .caja-texto h2, 
+.second-section .caja-texto h3, 
+.second-section .caja-texto a{
 	color: #A89F68;
 }
 /*DISEÑO SECTION 3*/
@@ -83,7 +90,8 @@ button:hover{
 	padding-top: 70px;
 	color: white;
 }
-.fourth-section .caja-texto h2 small, .fourth-section .caja-texto p{
+.fourth-section .caja-texto h2 small, 
+.fourth-section .caja-texto p{
 	color: white;
 }
 /*DISEÑO SECTION 5*/
@@ -102,4 +110,26 @@ button:hover{
 }
 .fifth-section .caja-texto a{
 	color: #A89F68;
+}
+/*DISEÑO SECTION 6*/
+.sixth-section{
+	background-color: #A89F68;
+	padding: 70px 20px;
+}
+.sixth-section .title{
+	color: #41521F;
+}
+.sixth-section .caja-texto{
+	padding-top: 40px;
+}
+.sixth-section .caja-texto h1{
+	font-size: 7rem;
+	color: white;
+} 
+.sixth-section .caja-texto h1 small{
+	font-size: 2rem;
+	color: white;
+}
+.sixth-section .caja-texto hr{
+	border-color: white;
 }
