@@ -43,13 +43,13 @@ button:hover{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.first-section h1{
+.first-section .caja-texto h1{
 	padding-top: 3em;
 	color: #A89F68;
 	font-weight: 700;
 	font-size: 60px;
 }
-.first-section p{
+.first-section .caja-texto p{
 	color: white;
 	text-align: justify;
 }
