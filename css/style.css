@@ -133,3 +133,24 @@ button:hover{
 .sixth-section .caja-texto hr{
 	border-color: white;
 }
+/*FOOTER*/
+footer{
+	background-color: #41521F;
+	padding: 40px 20px;
+}
+footer .caja-texto h6,
+footer .caja-texto p a{
+	color: #A89F68;
+}
+footer .caja-texto p{
+	color: white;
+}
+footer .caja-links a{
+	color: #A89F68;
+}
+footer .made-by p{
+	padding-top: 50px;
+	color: white;
+	font-size: 1rem;
+	font-style: italic;
+}
