@@ -45,7 +45,7 @@ green: 55A44E;
 .second-section .caja-texto{
 	padding-top: 140px;
 }
-.second-section .caja-texto h2, h3, a{
+.second-section .caja-texto h2, .second-section .caja-textoh3, .second-section .caja-texto a{
 	color: #A89F68;
 }
 /*DISEÑO SECTION 3*/
@@ -79,4 +79,21 @@ green: 55A44E;
 }
 .fourth-section .caja-texto h2 small, .fourth-section .caja-texto p{
 	color: white;
+}
+/*DISEÑO SECTION 5*/
+.fifth-section{
+	padding: 70px;
+}
+.fifth-section .title h2{
+	color: #A89F68;
+}
+.fifth-section .caja-texto{
+	padding-top: 40px;
+}
+.fifth-section .caja-texto h2 i{
+	font-size: 7rem;
+	color: #A89F68;
+}
+.fifth-section .caja-texto a{
+	color: #A89F68;
 }
