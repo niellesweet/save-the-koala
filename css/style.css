@@ -39,7 +39,7 @@ army green: 41521F;
 /*DISEÑO SECTION 2*/
 .second-section{
 	background-color: white;
-	padding-top: 70px;
+	padding: 50px 20px;
 	height: 100vh;
 }
 .second-section .caja-texto{
