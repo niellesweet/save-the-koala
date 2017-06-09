@@ -39,7 +39,7 @@ button:hover{
 /*DISEÑO SECTION 1*/
 .first-section{
 	background-image: url(../img/portada.jpg);
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
